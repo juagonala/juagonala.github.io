@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://juagonala.com/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>https://juagonala.com/coding-standards-with-php_codesniffer/</loc>
+		<lastmod>2020-05-31T10:39:10+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://juagonala.com/initial-commit/</loc>
+		<lastmod>2020-05-21T15:52:48+00:00</lastmod>
+	</url>
+</urlset>
