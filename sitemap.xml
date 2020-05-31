@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://juagonala.com/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://juagonala.com/sitemap-post-type-post.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://juagonala.com/sitemap-post-type-page.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://juagonala.com/sitemap-taxonomy-category.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://juagonala.com/sitemap-taxonomy-post_tag.xml</loc>
+	</sitemap>
+</sitemapindex>
