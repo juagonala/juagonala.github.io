@@ -211,10 +211,10 @@ body.custom-background { background-color: #ffffff; }
 
 
 <pre class="brush: plain; gutter: false; title: ; notranslate" title="">
-"require-dev": {
-    "wp-coding-standards/wpcs": "2.2.1",
-    "dealerdirect/phpcodesniffer-composer-installer": "0.6.2",
-    "phpcompatibility/phpcompatibility-wp": "2.1.0"
+&quot;require-dev&quot;: {
+    &quot;wp-coding-standards/wpcs&quot;: &quot;2.2.1&quot;,
+    &quot;dealerdirect/phpcodesniffer-composer-installer&quot;: &quot;0.6.2&quot;,
+    &quot;phpcompatibility/phpcompatibility-wp&quot;: &quot;2.1.0&quot;
 }
 </pre>
 
@@ -243,27 +243,27 @@ The installed coding standards are PEAR, Zend, PSR2, MySource, Squiz, PSR1, PSR1
 
 
 <pre class="brush: xml; title: ; notranslate" title="">
-<?xml version="1.0"?>
-<ruleset name="WordPress Coding Standards">
-   <description>PHP_CodeSniffer ruleset.</description>
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;ruleset name=&quot;WordPress Coding Standards&quot;&gt;
+   &lt;description&gt;PHP_CodeSniffer ruleset.&lt;/description&gt;
 
-   <!-- Exclude paths -->
-   <exclude-pattern>*/node_modules/*</exclude-pattern>
-   <exclude-pattern>*/vendor/*</exclude-pattern>
+   &lt;!-- Exclude paths --&gt;
+   &lt;exclude-pattern&gt;*/node_modules/*&lt;/exclude-pattern&gt;
+   &lt;exclude-pattern&gt;*/vendor/*&lt;/exclude-pattern&gt;
 
-   <!-- Configs -->
-   <config name="minimum_supported_wp_version" value="4.4" />
-   <config name="testVersion" value="5.6-" />
+   &lt;!-- Configs --&gt;
+   &lt;config name=&quot;minimum_supported_wp_version&quot; value=&quot;4.4&quot; /&gt;
+   &lt;config name=&quot;testVersion&quot; value=&quot;5.6-&quot; /&gt;
 
-   <!-- Rules -->
-   <rule ref="WordPress" />
+   &lt;!-- Rules --&gt;
+   &lt;rule ref=&quot;WordPress&quot; /&gt;
 
-   <rule ref="WordPress.WP.I18n">
-      <properties>
-         <property name="text_domain" type="array" value="my-plugin-textdomain" />
-      </properties>
-   </rule>
-</ruleset>
+   &lt;rule ref=&quot;WordPress.WP.I18n&quot;&gt;
+      &lt;properties&gt;
+         &lt;property name=&quot;text_domain&quot; type=&quot;array&quot; value=&quot;my-plugin-textdomain&quot; /&gt;
+      &lt;/properties&gt;
+   &lt;/rule&gt;
+&lt;/ruleset&gt;
 </pre>
 
 
@@ -376,7 +376,7 @@ if ( wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['nonce'] ) ), 'my-n
 
 
 <pre class="brush: php; title: ; notranslate" title="">
-$foo = '<p><strong>WPCS:</strong> Valid output.</p>';
+$foo = '&lt;p&gt;&lt;strong&gt;WPCS:&lt;/strong&gt; Valid output.&lt;/p&gt;';
 
 echo $foo; // phpcs:ignore WordPress.Security.EscapeOutput
 </pre>
@@ -395,7 +395,7 @@ $action = ( isset( $_GET['action'] ) ? sanitize_text_field( wp_unslash( $_GET['a
 
 <pre class="brush: php; title: ; notranslate" title="">
 // phpcs:disable WordPress.Security.EscapeOutput
-$foo = '<p><strong>WPCS:</strong> Valid output.</p>';
+$foo = '&lt;p&gt;&lt;strong&gt;WPCS:&lt;/strong&gt; Valid output.&lt;/p&gt;';
 
 // ...
 
@@ -432,8 +432,8 @@ composer require woocommerce/woocommerce-sniffs
 
 
 <pre class="brush: xml; title: ; notranslate" title="">
-<!-- Rules -->
-<rule ref="WooCommerce-Core" />
+&lt;!-- Rules --&gt;
+&lt;rule ref=&quot;WooCommerce-Core&quot; /&gt;
 </pre>
 
 
