@@ -8,23 +8,26 @@ gtag('config', 'UA-170106444-1', {"anonymize_ip":true} );
 </script><meta name="generator" content="Site Kit by Google 1.10.0"><script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script><meta property="og:title" content="Coding Standards – Juan José González"><meta property="og:type" content="website"><meta property="og:url" content="https://juagonala.com/tag/coding-standards/"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Juan José González"><meta name="twitter:card" content="summary_large_image"><style id="custom-background-css">
 body.custom-background { background-color: #ffffff; }
 </style><style id="wp-custom-css">
-			.syntaxhighlighter {
+			.post-author.meta-wrapper,
+.author-bio .author-link,
+.powered-by-wordpress {
+	display: none;
+}
+
+.syntaxhighlighter {
 	border-radius: 3px;
 	padding: 1.2rem;
 }
 
 .syntaxhighlighter .line {
-	font-size: 16px !important;
+	font-size: 14px !important;
 }
 
 .syntaxhighlighter table tbody td.gutter .line {
 	padding-left: 0 !important;
 }
-
-.post-author.meta-wrapper,
-.author-bio .author-link,
-.powered-by-wordpress {
-	display: none;
+.syntaxhighlighter table .gutter + .code .line {
+	padding: 0 0.5em !important;
 }
 
 @media (min-width: 700px) {
@@ -40,7 +43,12 @@ body.custom-background { background-color: #ffffff; }
 	h3, .heading-size-3 {
 		font-size: 3.4rem;
 	}
+	
+	.syntaxhighlighter .line {
+		font-size: 16px !important;
+	}
 }
+
 @media (min-width: 1220px) {
 	h1, .heading-size-1 {
 		font-size: 6rem;
