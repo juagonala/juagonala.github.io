@@ -514,6 +514,7 @@ figure.wp-block-table.is-style-stripes {border-bottom: none;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {margin: 3.5rem auto 2rem;}
 .entry-content ul ul, .entry-content ol ol, .entry-content ul ol, .entry-content ol ul {margin-bottom: 1rem;}
 .entry-content hr {margin: 4rem auto;}
+.post-inner .entry-content > .wp-block-cover.alignwide:first-child, .post-inner .entry-content > .wp-block-cover.alignfull:first-child {margin-top: 0;}
 .entry-content {font-family: NonBreakingSpaceOverride,"Hoefler Text",Garamond,"Times New Roman",serif;letter-spacing: normal;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content cite, .entry-content figcaption, .entry-content table, .entry-content address, .entry-content .wp-caption-text, .entry-content .wp-block-file {font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}
 @supports ( font-variation-settings: normal ) {.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content cite, .entry-content figcaption, .entry-content table, .entry-content address, .entry-content .wp-caption-text, .entry-content .wp-block-file {font-family: "Inter var",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}}
@@ -812,6 +813,7 @@ a.to-the-top > * {pointer-events: none;}
 	.entry-content > .alignwide {max-width: calc(100vw - 8rem);width: calc(100vw - 8rem);}
 	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignleft, [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignleft, [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignleft {margin-left: 4rem;}
 	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignright, [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignright, [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignright {margin-right: 4rem;}
+	.entry-content > .alignwide:first-child, .entry-content > .alignfull:first-child {margin-bottom: 8rem;}
 	.alignfull > figcaption, .alignfull > .wp-caption-text {width: calc(100% - 8rem);}
 	.comments-wrapper {margin-top: 8rem;}
 	.comment-reply-title {margin-bottom: 4.6rem;}
