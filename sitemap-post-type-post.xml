@@ -6,39 +6,39 @@
 		<lastmod>2020-07-09T08:49:41+00:00</lastmod>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/05/phpstorm-code-style.png</image:loc>
-			<image:title>phpstorm-code-style</image:title>
+			<image:title><![CDATA[phpstorm-code-style]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-php-quality-tools.png</image:loc>
-			<image:title>phpstorm-php-quality-tools</image:title>
+			<image:title><![CDATA[phpstorm-php-quality-tools]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-phpcodesniffer-local-setup.png</image:loc>
-			<image:title>phpstorm-phpcodesniffer-local-setup</image:title>
+			<image:title><![CDATA[phpstorm-phpcodesniffer-local-setup]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-inspections-settings.png</image:loc>
-			<image:title>phpstorm-inspections-settings</image:title>
+			<image:title><![CDATA[phpstorm-inspections-settings]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-coding-standard-rulesets.png</image:loc>
-			<image:title>phpstorm-coding-standard-rulesets</image:title>
+			<image:title><![CDATA[phpstorm-coding-standard-rulesets]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-custom-coding-standard.png</image:loc>
-			<image:title>phpstorm-custom-coding-standard</image:title>
+			<image:title><![CDATA[phpstorm-custom-coding-standard]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-coding-standard-errors.png</image:loc>
-			<image:title>phpstorm-coding-standard-errors</image:title>
+			<image:title><![CDATA[phpstorm-coding-standard-errors]]></image:title>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://juagonala.com/coding-standards-with-php_codesniffer/</loc>
-		<lastmod>2020-06-22T07:41:00+00:00</lastmod>
+		<lastmod>2020-07-09T08:59:33+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/initial-commit/</loc>
-		<lastmod>2020-05-21T15:52:48+00:00</lastmod>
+		<lastmod>2020-11-10T16:48:29+00:00</lastmod>
 	</url>
 </urlset>
