@@ -32,7 +32,7 @@
 .has-white-color {color: #fff;}
 .editor-styles-wrapper .editor-block-list__layout a {color: #cd2653;text-decoration: underline;}
 .editor-styles-wrapper a:focus, .editor-styles-wrapper a:hover {text-decoration: none;}
-.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6 {font-feature-settings: "lnum";font-variant-numeric: lining-nums;font-weight: 700;letter-spacing: -.0415625em;line-height: 1.25;margin: 40px 0 25px;}
+.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6 {font-feature-settings: "lnum";font-variant-numeric: lining-nums;font-weight: 700;letter-spacing: -.0415625em;line-height: 1.25;margin-top: 40px;margin-bottom: 25px;}
 .editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1 {font-size: 36px;font-weight: 800;line-height: 1.138888889;}
 .editor-styles-wrapper .wp-block h2 {font-size: 32px;}
 .editor-styles-wrapper .wp-block h3 {font-size: 28px;}
