@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://juagonala.com/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-<br />
-<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
-<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query(): (HY000/1021): Disk full (/tmp/#sql_d5b_0.MAI); waiting for someone to free some space... (errno: 28 &amp;quot;No space left on device&amp;quot;) in /srv/www/juagonala/public_html/wp-includes/wp-db.php on line <i>2056</i></th></tr>
-<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
-<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
-<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0029</td><td bgcolor='#eeeeec' align='right'>396888</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/srv/www/juagonala/public_html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0029</td><td bgcolor='#eeeeec' align='right'>397160</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'/srv/www/juagonala/public_html/wp-blog-header.php</font> )</td><td title='/srv/www/juagonala/public_html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>17</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.3352</td><td bgcolor='#eeeeec' align='right'>4665936</td><td bgcolor='#eeeeec'>require_once( <font color='#00bb00'>'/srv/www/juagonala/public_html/wp-includes/template-loader.php</font> )</td><td title='/srv/www/juagonala/public_html/wp-blog-header.php' bgcolor='#eeeeec'>.../wp-blog-header.php<b>:</b>19</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.3352</td><td bgcolor='#eeeeec' align='right'>4665936</td><td bgcolor='#eeeeec'>do_action( <span>$tag = </span><span>&#39;template_redirect&#39;</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/template-loader.php' bgcolor='#eeeeec'>.../template-loader.php<b>:</b>13</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.3352</td><td bgcolor='#eeeeec' align='right'>4666312</td><td bgcolor='#eeeeec'>WP_Hook->do_action( <span>$args = </span><span>[0 =&gt; &#39;&#39;]</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/plugin.php' bgcolor='#eeeeec'>.../plugin.php<b>:</b>484</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.3352</td><td bgcolor='#eeeeec' align='right'>4666312</td><td bgcolor='#eeeeec'>WP_Hook->apply_filters( <span>$value = </span><span>&#39;&#39;</span>, <span>$args = </span><span>[0 =&gt; &#39;&#39;]</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/class-wp-hook.php' bgcolor='#eeeeec'>.../class-wp-hook.php<b>:</b>311</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.3352</td><td bgcolor='#eeeeec' align='right'>4667488</td><td bgcolor='#eeeeec'>SlimSEO\Sitemaps\Manager->output( <span>&#39;&#39;</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/class-wp-hook.php' bgcolor='#eeeeec'>.../class-wp-hook.php<b>:</b>287</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.3369</td><td bgcolor='#eeeeec' align='right'>4668432</td><td bgcolor='#eeeeec'>SlimSEO\Sitemaps\Taxonomy->output(  )</td><td title='/srv/www/juagonala/public_html/wp-content/plugins/slim-seo/src/Sitemaps/Manager.php' bgcolor='#eeeeec'>.../Manager.php<b>:</b>63</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.3369</td><td bgcolor='#eeeeec' align='right'>4668808</td><td bgcolor='#eeeeec'>get_terms( <span>$args = </span><span>[&#39;hide_empty&#39; =&gt; TRUE, &#39;number&#39; =&gt; 2000, &#39;hierarchical&#39; =&gt; FALSE, &#39;update_term_meta_cache&#39; =&gt; FALSE, &#39;taxonomy&#39; =&gt; &#39;post_tag&#39;, &#39;offset&#39; =&gt; 0]</span>, <span>$deprecated = </span>??? )</td><td title='/srv/www/juagonala/public_html/wp-content/plugins/slim-seo/src/Sitemaps/Taxonomy.php' bgcolor='#eeeeec'>.../Taxonomy.php<b>:</b>30</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.3370</td><td bgcolor='#eeeeec' align='right'>4670096</td><td bgcolor='#eeeeec'>WP_Term_Query->query( <span>$query = </span><span>[&#39;hide_empty&#39; =&gt; TRUE, &#39;number&#39; =&gt; 2000, &#39;hierarchical&#39; =&gt; FALSE, &#39;update_term_meta_cache&#39; =&gt; FALSE, &#39;taxonomy&#39; =&gt; [0 =&gt; &#39;post_tag&#39;], &#39;offset&#39; =&gt; 0]</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/taxonomy.php' bgcolor='#eeeeec'>.../taxonomy.php<b>:</b>1225</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.3370</td><td bgcolor='#eeeeec' align='right'>4670096</td><td bgcolor='#eeeeec'>WP_Term_Query->get_terms(  )</td><td title='/srv/www/juagonala/public_html/wp-includes/class-wp-term-query.php' bgcolor='#eeeeec'>.../class-wp-term-query.php<b>:</b>297</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.3372</td><td bgcolor='#eeeeec' align='right'>4675112</td><td bgcolor='#eeeeec'>wpdb->get_results( <span>$query = </span><span>&#39;SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN (\&#39;post_tag\&#39;) AND tt.count &gt; 0 ORDER BY t.name ASC LIMIT 2000&#39;</span>, <span>$output = </span>??? )</td><td title='/srv/www/juagonala/public_html/wp-includes/class-wp-term-query.php' bgcolor='#eeeeec'>.../class-wp-term-query.php<b>:</b>727</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.3372</td><td bgcolor='#eeeeec' align='right'>4675208</td><td bgcolor='#eeeeec'>wpdb->query( <span>$query = </span><span>&#39;SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN (\&#39;post_tag\&#39;) AND tt.count &gt; 0 ORDER BY t.name ASC LIMIT 2000&#39;</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/wp-db.php' bgcolor='#eeeeec'>.../wp-db.php<b>:</b>2696</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.3372</td><td bgcolor='#eeeeec' align='right'>4650296</td><td bgcolor='#eeeeec'>wpdb->_do_query( <span>$query = </span><span>&#39;SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN (\&#39;post_tag\&#39;) AND tt.count &gt; 0 ORDER BY t.name ASC LIMIT 2000&#39;</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/wp-db.php' bgcolor='#eeeeec'>.../wp-db.php<b>:</b>1945</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.3372</td><td bgcolor='#eeeeec' align='right'>4650296</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
-( <span>$link = </span><span>class mysqli { public $affected_rows = -1; public $client_info = &#39;mysqlnd 5.0.12-dev - 20150407 - $Id: 7cc7cc96e675f6d72e5cf0f267f48e167c2abb23 $&#39;; public $client_version = 50012; public $connect_errno = 0; public $connect_error = NULL; public $errno = 0; public $error = &#39;&#39;; public $error_list = []; public $field_count = 10; public $host_info = &#39;Localhost via UNIX socket&#39;; public $info = NULL; public $insert_id = 0; public $server_info = &#39;5.5.5-10.4.17-MariaDB-1:10.4.17+maria~bionic&#39;; public $server_version = 100417; public $stat = &#39;Uptime: 10012  Threads: 9  Questions: 41456  Slow queries: 0  Opens: 84  Flush tables: 1  Open tables: 78  Queries per second avg: 4.140&#39;; public $sqlstate = &#39;00000&#39;; public $protocol_version = 10; public $thread_id = 732; public $warning_count = 0 }</span>, <span>$query = </span><span>&#39;SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN (\&#39;post_tag\&#39;) AND tt.count &gt; 0 ORDER BY t.name ASC LIMIT 2000&#39;</span> )</td><td title='/srv/www/juagonala/public_html/wp-includes/wp-db.php' bgcolor='#eeeeec'>.../wp-db.php<b>:</b>2056</td></tr>
-</table></font>
+	<url>
+		<loc>https://juagonala.com/tag/backward-compatibility/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/best-practices/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/coding-standards/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/deprecated-code/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/legacy-code/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/php_codesniffer/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/phpstorm/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/quality-tools/</loc>
+	</url>
 </urlset>
