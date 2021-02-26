@@ -3,11 +3,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
 		<loc>https://juagonala.com/how-to-deprecate-code-in-wordpress/</loc>
-		<lastmod>2020-12-29T16:54:01+00:00</lastmod>
+		<lastmod>2021-01-13T09:08:39+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/how-to-enable-php_codesniffer-in-phpstorm/</loc>
-		<lastmod>2020-07-09T08:49:41+00:00</lastmod>
+		<lastmod>2021-01-13T09:09:29+00:00</lastmod>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/05/phpstorm-code-style.png</image:loc>
 			<image:title><![CDATA[phpstorm-code-style]]></image:title>
@@ -39,7 +39,7 @@
 	</url>
 	<url>
 		<loc>https://juagonala.com/coding-standards-with-php_codesniffer/</loc>
-		<lastmod>2020-07-09T08:59:33+00:00</lastmod>
+		<lastmod>2021-01-13T09:06:27+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/initial-commit/</loc>
