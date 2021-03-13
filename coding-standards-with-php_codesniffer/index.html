@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>WordPress Coding standards with PHP_CodeSniffer</title><link rel="dns-prefetch" href="//www.googletagmanager.com"><link rel="dns-prefetch" href="//s.w.org"><meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"><link rel="stylesheet" id="wp-block-library-css" href="https://juagonala.com/wp-includes/css/dist/block-library/style.css" media="all"><link rel="stylesheet" id="twentytwenty-style-css" href="https://juagonala.com/wp-content/themes/twentytwenty/style.css" media="all"><style id="twentytwenty-style-inline-css">
+<html class="no-js" lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>WordPress Coding standards with PHP_CodeSniffer</title><meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1"><link rel="dns-prefetch" href="//www.googletagmanager.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://juagonala.com/wp-includes/css/dist/block-library/style.css" media="all"><link rel="stylesheet" id="twentytwenty-style-css" href="https://juagonala.com/wp-content/themes/twentytwenty/style.css" media="all"><style id="twentytwenty-style-inline-css">
 .color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #4172dc; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #4172dc; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #4172dc; }.fill-children-accent,.fill-children-accent * { fill: #4172dc; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #4172dc; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #4172dc; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #ffffff; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #ffffff; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #6d6d6d; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #dbdbdb; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #dbdbdb; }
 </style><link rel="stylesheet" id="twentytwenty-print-style-css" href="https://juagonala.com/wp-content/themes/twentytwenty/print.css" media="print"><script src="https://juagonala.com/wp-content/themes/twentytwenty/assets/js/index.js" id="twentytwenty-js-js" async></script><script src="https://www.googletagmanager.com/gtag/js?id=UA-170106444-1" id="google_gtagjs-js" async></script><script id="google_gtagjs-js-after">
 window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
 gtag("js", new Date());
 gtag("set", "developer_id.dZTNiMT", true);
 gtag("config", "UA-170106444-1", {"anonymize_ip":true});
-</script><meta name="generator" content="Site Kit by Google 1.26.0"><script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script><meta name="description" content="Know the WordPress coding standards and learn how PHP_CodeSniffer can help you to accomplish these standards and improve your code."><meta property="og:title" content="WordPress Coding standards with PHP_CodeSniffer"><meta property="og:type" content="article"><meta property="og:description" content="Know the WordPress coding standards and learn how PHP_CodeSniffer can help you to accomplish these standards and improve your code."><meta property="og:url" content="https://juagonala.com/coding-standards-with-php_codesniffer/"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Juan José González"><meta property="article:published_time" content="2020-05-20T16:38:08+00:00"><meta property="article:modified_time" content="2021-01-13T09:06:27+00:00"><meta property="og:updated_time" content="2021-01-13T09:06:27+00:00"><meta property="article:section" content="Coding"><meta property="article:tag" content="Coding Standards"><meta property="article:tag" content="PHP_CodeSniffer"><meta property="article:tag" content="Quality tools"><meta property="article:author" content="Juan José"><meta name="twitter:card" content="summary_large_image"><style id="custom-background-css">
+</script><meta name="generator" content="Site Kit by Google 1.27.0"><script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script><meta name="description" content="Know the WordPress coding standards and learn how PHP_CodeSniffer can help you to accomplish these standards and improve your code."><meta property="og:title" content="WordPress Coding standards with PHP_CodeSniffer"><meta property="og:type" content="article"><meta property="og:description" content="Know the WordPress coding standards and learn how PHP_CodeSniffer can help you to accomplish these standards and improve your code."><meta property="og:url" content="https://juagonala.com/coding-standards-with-php_codesniffer/"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Juan José González"><meta property="article:published_time" content="2020-05-20T16:38:08+00:00"><meta property="article:modified_time" content="2021-01-13T09:06:27+00:00"><meta property="og:updated_time" content="2021-01-13T09:06:27+00:00"><meta property="article:section" content="Coding"><meta property="article:tag" content="Coding Standards"><meta property="article:tag" content="PHP_CodeSniffer"><meta property="article:tag" content="Quality tools"><meta property="article:author" content="Juan José"><meta name="twitter:card" content="summary_large_image"><style id="custom-background-css">
 body.custom-background { background-color: #ffffff; }
 </style><style id="wp-custom-css">
 			.post-author.meta-wrapper,
@@ -227,29 +227,29 @@ body.custom-background { background-color: #ffffff; }
 <p>In order to use the WordPress coding standards, we need to add the following dependencies to our <code>composer.json</code> file:</p>
 
 
-<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; gutter: false; title: ; notranslate" title="">
 &quot;require-dev&quot;: {
     &quot;wp-coding-standards/wpcs&quot;: &quot;2.2.1&quot;,
     &quot;dealerdirect/phpcodesniffer-composer-installer&quot;: &quot;0.6.2&quot;,
     &quot;phpcompatibility/phpcompatibility-wp&quot;: &quot;2.1.0&quot;
 }
-</pre>
+</pre></div>
 
 
 <p>Install them and after that, execute the command:</p>
 
 
-<pre class="brush: plain; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
 ./vendor/bin/phpcs -i
-</pre>
+</pre></div>
 
 
 <p>The output should be something like this:</p>
 
 
-<pre class="brush: plain; class-name: 'line-break'; gutter: false; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code line-break"><pre class="brush: plain; gutter: false; title: ; notranslate" title="">
 The installed coding standards are PEAR, Zend, PSR2, MySource, Squiz, PSR1, PSR12, PHPCompatibility, PHPCompatibilityParagonieRandomCompat, PHPCompatibilityParagonieSodiumCompat, PHPCompatibilityWP, WordPress, WordPress-Extra, WordPress-Docs and WordPress-Core
-</pre>
+</pre></div>
 
 
 <p>You can see a list of all the available rulesets. We are going to use the ruleset “<strong>WordPress</strong>“.  For additional info about the different WordPress rulesets, check its <a rel="noreferrer noopener" href="https://github.com/WordPress/WordPress-Coding-Standards#rulesets" target="_blank">documentation</a>.</p>
@@ -259,7 +259,7 @@ The installed coding standards are PEAR, Zend, PSR2, MySource, Squiz, PSR1, PSR1
 <p>Now, it’s time to define our <code>phpcs.xml</code> config file:</p>
 
 
-<pre class="brush: xml; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; title: ; notranslate" title="">
 &lt;?xml version=&quot;1.0&quot;?&gt;
 &lt;ruleset name=&quot;WordPress Coding Standards&quot;&gt;
    &lt;description&gt;PHP_CodeSniffer ruleset.&lt;/description&gt;
@@ -281,7 +281,7 @@ The installed coding standards are PEAR, Zend, PSR2, MySource, Squiz, PSR1, PSR1
       &lt;/properties&gt;
    &lt;/rule&gt;
 &lt;/ruleset&gt;
-</pre>
+</pre></div>
 
 
 <p>In this file, we have defined some interesting configurations:</p>
@@ -295,23 +295,23 @@ The installed coding standards are PEAR, Zend, PSR2, MySource, Squiz, PSR1, PSR1
 <p>It’s time to try our new tool. Let’s create a test file called <code>demo.php</code> with the following code:</p>
 
 
-<pre class="brush: php; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
 $foo = ['bar'];
-</pre>
+</pre></div>
 
 
 <p>Quite simple isn’t it? Now execute the command:</p>
 
 
-<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; gutter: false; title: ; notranslate" title="">
 ./vendor/bin/phpcs -s -p ./demo.php
-</pre>
+</pre></div>
 
 
 <p>The output will be the following:</p>
 
 
-<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; gutter: false; title: ; notranslate" title="">
 FOUND 3 ERRORS AFFECTING 1 LINE
 
 1 | ERROR | [x] Missing space after array opener.
@@ -319,7 +319,7 @@ FOUND 3 ERRORS AFFECTING 1 LINE
 1 | ERROR | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
 1 | ERROR | [x] Missing space before array closer.
 | | (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceBeforeArrayCloser)
-</pre>
+</pre></div>
 
 
 <p>The code validation will throw some errors, each one with its own description and the rule key which failed. </p>
@@ -329,9 +329,9 @@ FOUND 3 ERRORS AFFECTING 1 LINE
 <p>After fixing the errors, our code looks like this:</p>
 
 
-<pre class="brush: perl; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: perl; title: ; notranslate" title="">
 $foo = array( 'bar' );
-</pre>
+</pre></div>
 
 
 <p>Execute the previous command again and check that our code passes all the validations.</p>
@@ -341,15 +341,15 @@ $foo = array( 'bar' );
 <p>Let’s seen another example:</p>
 
 
-<pre class="brush: php; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
 $action = $_GET['action'];
-</pre>
+</pre></div>
 
 
 <p>In a first look, we don’t see anything strange in the code, but as I mentioned before, coding standards are much more than formatting the code. Let’s execute our tool again:</p>
 
 
-<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; gutter: false; title: ; notranslate" title="">
 FOUND 3 ERRORS AND 1 WARNING AFFECTING 1 LINE
 
  1 | WARNING | Processing form data without nonce verification. (WordPress.Security.NonceVerification.Recommended)
@@ -360,7 +360,7 @@ FOUND 3 ERRORS AND 1 WARNING AFFECTING 1 LINE
    |         | (WordPress.Security.ValidatedSanitizedInput.MissingUnslash)
  1 | ERROR   | Detected usage of a non-sanitized input variable: $_GET['action']
    |         | (WordPress.Security.ValidatedSanitizedInput.InputNotSanitized)
-</pre>
+</pre></div>
 
 
 <p>Wow, these are too many errors for a so simple piece of code. But what the tool is complaining of? Let’s see:</p>
@@ -370,11 +370,11 @@ FOUND 3 ERRORS AND 1 WARNING AFFECTING 1 LINE
 <ul><li>We have not checked the index <code>'action'</code> exists before using it, which might throw a warning.</li><li>We have not sanitized the value of this argument, which might break our code if the value is not valid, or even worst, it opens the door to a possible <strong>MySQL Injection</strong> attack if this value is stored in the database.</li><li>We have not performed a validation of the GET request with a <a rel="noreferrer noopener" href="https://developer.wordpress.org/themes/theme-security/using-nonces/" target="_blank">nonce field</a>. So, the code might be executed by a non-authorized user.</li></ul><p>Understood, these are good points to improve our code.</p>
 
 
-<pre class="brush: php; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
 if ( wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['nonce'] ) ), 'my-nonce-action' ) ) {
 	$action = ( isset( $_GET['action'] ) ? sanitize_text_field( wp_unslash( $_GET['action'] ) ) : '' );
 }
-</pre>
+</pre></div>
 
 
 <p>Much better, now our code is more secure and less error-prone.</p>
@@ -392,25 +392,25 @@ if ( wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['nonce'] ) ), 'my-n
 <p>Sometimes, your coding standards may throw an error over a block of code you consider it’s ok or that you want to ignore. For example, the output of a non-sanitized variable. If you are sure this output is safe, you can add a <code>phpcs:ignore</code> comment to whitelist this piece of code.</p>
 
 
-<pre class="brush: php; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
 $foo = '&lt;p&gt;&lt;strong&gt;WPCS:&lt;/strong&gt; Valid output.&lt;/p&gt;';
 
 echo $foo; // phpcs:ignore WordPress.Security.EscapeOutput
-</pre>
+</pre></div>
 
 
 <p>In the previous example which we added a nonce validation, let’s suppose we don’t need that validation, the request is available to everyone, how can we ignore this issue? Easy:</p>
 
 
-<pre class="brush: php; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
 $action = ( isset( $_GET['action'] ) ? sanitize_text_field( wp_unslash( $_GET['action'] ) ) : '' ); // phpcs:ignore WordPress.Security.NonceVerification
-</pre>
+</pre></div>
 
 
 <p>On the other hand, if you have a block of code where you need to ignore the same error in multiple lines, you can opt to disable the error over the whole block of code.</p>
 
 
-<pre class="brush: php; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
 // phpcs:disable WordPress.Security.EscapeOutput
 $foo = '&lt;p&gt;&lt;strong&gt;WPCS:&lt;/strong&gt; Valid output.&lt;/p&gt;';
 
@@ -418,7 +418,7 @@ $foo = '&lt;p&gt;&lt;strong&gt;WPCS:&lt;/strong&gt; Valid output.&lt;/p&gt;';
 
 echo $foo;
 // phpcs:enable WordPress.Security.EscapeOutput
-</pre>
+</pre></div>
 
 
 <p><strong>Note:</strong> Don’t forget to enable the error validation again and be sure you only disable the errors you want to ignore and not all of them.</p>
@@ -436,9 +436,9 @@ echo $foo;
 <p>If you are working on a WooCommerce extension, you should know that WooCommerce also has its own coding standards. To make use of them, install the dependency as follows:</p>
 
 
-<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; gutter: false; title: ; notranslate" title="">
 composer require woocommerce/woocommerce-sniffs
-</pre>
+</pre></div>
 
 
 <p>The WooCommerce coding standards are an extended version of the WordPress coding standards. So, the dependencies mentioned before are no longer necessary in your <code>composer.json</code> file.</p>
@@ -448,19 +448,19 @@ composer require woocommerce/woocommerce-sniffs
 <p>Now, update your <code>phpcs.xml</code> config file by replacing the ruleset “<strong>WordPress</strong>” by “<strong>Woocommerce-Core</strong>“.</p>
 
 
-<pre class="brush: xml; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; title: ; notranslate" title="">
 &lt;!-- Rules --&gt;
 &lt;rule ref=&quot;WooCommerce-Core&quot; /&gt;
-</pre>
+</pre></div>
 
 
 <p>After enabling the WooCommerce coding standards, quite commonly used functions like <code>wc_clean</code>, <code>wc_format_decimal</code>, etc. won’t throw an error during validation because these functions have been marked as safe.</p>
 
 
-<pre class="brush: php; title: ; notranslate" title="">
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
 // This line doesn't throw a non-sanitized error with the WC coding standards.
 $action = ( isset( $_POST['action'] ) ? wc_clean( wp_unslash( $_POST['action'] ) ) : '' );
-</pre>
+</pre></div>
 
 
 <h2>Conclusion</h2>
