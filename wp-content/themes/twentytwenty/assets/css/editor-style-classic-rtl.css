@@ -35,7 +35,7 @@ body#tinymce.wp-editor.content blockquote p {font-style: normal;font-weight: 400
 body#tinymce.wp-editor.content cite {color: #6d6d6d;font-size: 16px;font-weight: 500;font-style: normal;}
 body#tinymce.wp-editor.content blockquote cite {display: block;margin-top: 20px;}
 body#tinymce.wp-editor.content ul {margin-right: 1.5em;padding-right: 0;list-style: disc;}
-body#tinymce.wp-editor.content ol {margin-right: 1.5em;padding-right: 0;list-style: square;}
+body#tinymce.wp-editor.content ol {margin-right: 1.5em;padding-right: 0;list-style: decimal;}
 body#tinymce.wp-editor.content ul ul {list-style: circle;}
 body#tinymce.wp-editor.content ul ul ul {list-style: square;}
 body#tinymce.wp-editor.content ol ol {list-style: lower-alpha;}
