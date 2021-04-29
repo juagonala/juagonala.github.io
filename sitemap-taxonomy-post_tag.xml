@@ -2,6 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="https://juagonala.com/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
+		<loc>https://juagonala.com/tag/arrays/</loc>
+	</url>
+	<url>
 		<loc>https://juagonala.com/tag/backward-compatibility/</loc>
 	</url>
 	<url>
@@ -24,5 +27,8 @@
 	</url>
 	<url>
 		<loc>https://juagonala.com/tag/quality-tools/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/refactoring/</loc>
 	</url>
 </urlset>
