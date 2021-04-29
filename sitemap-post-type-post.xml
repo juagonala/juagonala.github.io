@@ -2,6 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="https://juagonala.com/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
+		<loc>https://juagonala.com/stop-using-arrays-for-everything/</loc>
+		<lastmod>2021-04-29T17:01:02+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://juagonala.com/how-to-deprecate-code-in-wordpress/</loc>
 		<lastmod>2021-03-09T12:42:12+00:00</lastmod>
 	</url>
