@@ -14,6 +14,9 @@
 		<loc>https://juagonala.com/tag/coding-standards/</loc>
 	</url>
 	<url>
+		<loc>https://juagonala.com/tag/data-stores/</loc>
+	</url>
+	<url>
 		<loc>https://juagonala.com/tag/deprecated-code/</loc>
 	</url>
 	<url>
@@ -30,5 +33,11 @@
 	</url>
 	<url>
 		<loc>https://juagonala.com/tag/refactoring/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/wc-data/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/woocommerce/</loc>
 	</url>
 </urlset>
