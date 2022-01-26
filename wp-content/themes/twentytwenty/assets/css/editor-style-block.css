@@ -14,8 +14,8 @@
 .wp-block[data-align="full"] {max-width: none;}
 .editor-styles-wrapper .editor-rich-text__tinymce, .editor-styles-wrapper .editor-rich-text__tinymce.mce-content-body {line-height: 1.5;}
 .editor-styles-wrapper p, .editor-styles-wrapper ol, .editor-styles-wrapper ul, .editor-styles-wrapper dl, .editor-styles-wrapper dt {font-family: NonBreakingSpaceOverride,"Hoefler Text",Garamond,"Times New Roman",serif;letter-spacing: normal;}
-.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6, .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter, .editor-styles-wrapper cite, .editor-styles-wrapper figcaption, .editor-styles-wrapper .wp-caption-text {font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}
-@supports ( font-variation-settings: normal ) {.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6, .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter, .editor-styles-wrapper cite, .editor-styles-wrapper figcaption, .editor-styles-wrapper .wp-caption-text {font-family: "Inter var",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}}
+.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block-post-title, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6, .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter, .editor-styles-wrapper cite, .editor-styles-wrapper figcaption, .editor-styles-wrapper .wp-caption-text {font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}
+@supports ( font-variation-settings: normal ) {.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block-post-title, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6, .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter, .editor-styles-wrapper cite, .editor-styles-wrapper figcaption, .editor-styles-wrapper .wp-caption-text {font-family: "Inter var",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}}
 :root .has-accent-color {color: #cd2653;}
 :root .has-accent-background-color {background-color: #cd2653;color: #fff;}
 :root .has-primary-color {color: #000;}
@@ -32,14 +32,15 @@
 .has-white-color {color: #fff;}
 .editor-styles-wrapper a {color: #cd2653;text-decoration: underline;}
 .editor-styles-wrapper a:focus, .editor-styles-wrapper a:hover {text-decoration: none;}
-.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6 {font-feature-settings: "lnum";font-variant-numeric: lining-nums;font-weight: 700;letter-spacing: -.0415625em;line-height: 1.25;margin-top: 40px;margin-bottom: 25px;}
-.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1 {font-size: 36px;font-weight: 800;line-height: 1.138888889;}
+.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block-post-title, .editor-styles-wrapper .wp-block h1, .editor-styles-wrapper .wp-block h2, .editor-styles-wrapper .wp-block h3, .editor-styles-wrapper .wp-block h4, .editor-styles-wrapper .wp-block h5, .editor-styles-wrapper .wp-block h6 {font-feature-settings: "lnum";font-variant-numeric: lining-nums;font-weight: 700;letter-spacing: -.0415625em;line-height: 1.25;margin-top: 40px;margin-bottom: 25px;}
+.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block-post-title, .editor-styles-wrapper .wp-block h1 {font-size: 36px;font-weight: 800;line-height: 1.138888889;}
 .editor-styles-wrapper .wp-block h2 {font-size: 32px;}
 .editor-styles-wrapper .wp-block h3 {font-size: 28px;}
 .editor-styles-wrapper .wp-block h4 {font-size: 24px;}
 .editor-styles-wrapper .wp-block h5 {font-size: 21px;}
 .editor-styles-wrapper .wp-block h6 {font-size: 16px;letter-spacing: .03125em;text-transform: uppercase;}
 .editor-styles-wrapper li, .editor-styles-wrapper p, .editor-styles-wrapper p.wp-block-paragraph {line-height: 1.4;}
+.editor-styles-wrapper .wp-block-post-title {max-width: 1000px;margin: 0 auto;text-align: center;}
 .wp-block.editor-post-title__block {max-width: 1000px;}
 .editor-styles-wrapper .editor-post-title__block .editor-post-title__input {margin: 0;text-align: center;}
 .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter {color: #cd2653;font-size: 5.1em;font-weight: 800;margin: .05em .1em 0 0;}
@@ -180,7 +181,7 @@ hr.wp-block-separator.is-style-dots::before {font-size: 32px;font-weight: 700;le
 	.editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="right"] .block-editor-block-list__block-edit {margin-right: -30px;}
 	.editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="left"] .block-editor-block-list__block-edit {margin-left: -30px;}}
 @media ( min-width: 700px ) {.editor-styles-wrapper > * {font-size: 21px;}
-	.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1 {font-size: 64px;}
+	.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block-post-title, .editor-styles-wrapper .wp-block h1 {font-size: 64px;}
 	.editor-styles-wrapper .wp-block h2 {font-size: 48px;}
 	.editor-styles-wrapper .wp-block h3 {font-size: 40px;}
 	.editor-styles-wrapper .wp-block h4 {font-size: 32px;}
@@ -207,7 +208,7 @@ hr.wp-block-separator.is-style-dots::before {font-size: 32px;font-weight: 700;le
 @media ( min-width: 1000px ) {.wp-block-column {font-size: 18px;}
 	hr.wp-block-separator {margin-bottom: 80px;margin-top: 80px;}
 	hr.wp-block-separator.is-style-wide {margin-left: -70px;margin-right: -70px;}}
-@media ( min-width: 1220px ) {.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block h1 {font-size: 84px;}
+@media ( min-width: 1220px ) {.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper .wp-block-post-title, .editor-styles-wrapper .wp-block h1 {font-size: 84px;}
 	.editor-styles-wrapper .wp-block h6 {font-size: 18px;}
 	.editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="wide"] .wp-block-pullquote.is-style-solid-color, .editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="full"] .wp-block-pullquote.is-style-solid-color {padding: 90px 40px 80px;}
 	.editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="wide"] blockquote p, .editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="full"] blockquote p {font-size: 64px;}
