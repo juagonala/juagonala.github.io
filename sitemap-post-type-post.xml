@@ -2,10 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="https://juagonala.com/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
-		<loc>https://juagonala.com/what-a-developer-does/</loc>
-		<lastmod>2022-02-11T17:09:36+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://juagonala.com/how-woocommerce-handles-object-data/</loc>
 		<lastmod>2021-09-24T21:00:29+00:00</lastmod>
 	</url>
