@@ -11,6 +11,9 @@
 		<loc>https://juagonala.com/tag/best-practices/</loc>
 	</url>
 	<url>
+		<loc>https://juagonala.com/tag/coding/</loc>
+	</url>
+	<url>
 		<loc>https://juagonala.com/tag/coding-standards/</loc>
 	</url>
 	<url>
@@ -20,13 +23,22 @@
 		<loc>https://juagonala.com/tag/deprecated-code/</loc>
 	</url>
 	<url>
+		<loc>https://juagonala.com/tag/development/</loc>
+	</url>
+	<url>
 		<loc>https://juagonala.com/tag/legacy-code/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/opinion/</loc>
 	</url>
 	<url>
 		<loc>https://juagonala.com/tag/php_codesniffer/</loc>
 	</url>
 	<url>
 		<loc>https://juagonala.com/tag/phpstorm/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/programming/</loc>
 	</url>
 	<url>
 		<loc>https://juagonala.com/tag/quality-tools/</loc>
