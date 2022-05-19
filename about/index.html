@@ -41,7 +41,7 @@ gtag("config", "UA-170106444-1", {"anonymize_ip":true});
 
 
 
-<meta name="generator" content="Site Kit by Google 1.72.0">	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+<meta name="generator" content="Site Kit by Google 1.74.0">	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
 	<meta name="description" content="Hi, I'm Juan José González, a WordPress and WooCommerce developer with more than ten years of experience. I live in Madrid, Spain, the city I moved to after fin">
 <meta property="og:title" content="About – Juan José González">
 <meta property="og:type" content="article">
@@ -142,6 +142,11 @@ code {
 }
 
 @media (prefers-color-scheme: dark) {
+	:root {
+		--main-bg-color: #22272e;
+		--main-color: #e3edf3;
+	}
+	
 	body,
 	body.custom-background,
 	#site-header,
@@ -149,17 +154,17 @@ code {
 	.singular .entry-header,
 	.entry-content,
 	.footer-nav-widgets-wrapper {
-		background-color: #000;
-		color: #fff;
+		background-color: var(--main-bg-color);
+		color: var(--main-color);
 	}
 	.entry-title a {
-		color: #fff;
+		color: var(--main-color);
 	}
 	.menu-modal-inner {
-		background: #000;
+		background: var(--main-bg-color);
 	}
-	.header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
-		color: #fff;
+	.header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle, .faux-button, .social-icons a {
+		color: var(--main-color);
 	}
 	.site-description,
 	.post-meta,
