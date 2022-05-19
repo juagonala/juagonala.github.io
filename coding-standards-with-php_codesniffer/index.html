@@ -42,7 +42,7 @@ gtag("config", "UA-170106444-1", {"anonymize_ip":true});
 
 
 
-<meta name="generator" content="Site Kit by Google 1.72.0">	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+<meta name="generator" content="Site Kit by Google 1.74.0">	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
 	<meta name="description" content="Know the WordPress coding standards and learn how PHP_CodeSniffer can help you to accomplish these standards and improve your code.">
 <meta property="og:title" content="WordPress Coding standards with PHP_CodeSniffer">
 <meta property="og:type" content="article">
@@ -147,6 +147,11 @@ code {
 }
 
 @media (prefers-color-scheme: dark) {
+	:root {
+		--main-bg-color: #22272e;
+		--main-color: #e3edf3;
+	}
+	
 	body,
 	body.custom-background,
 	#site-header,
@@ -154,17 +159,17 @@ code {
 	.singular .entry-header,
 	.entry-content,
 	.footer-nav-widgets-wrapper {
-		background-color: #000;
-		color: #fff;
+		background-color: var(--main-bg-color);
+		color: var(--main-color);
 	}
 	.entry-title a {
-		color: #fff;
+		color: var(--main-color);
 	}
 	.menu-modal-inner {
-		background: #000;
+		background: var(--main-bg-color);
 	}
-	.header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
-		color: #fff;
+	.header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle, .faux-button, .social-icons a {
+		color: var(--main-color);
 	}
 	.site-description,
 	.post-meta,
