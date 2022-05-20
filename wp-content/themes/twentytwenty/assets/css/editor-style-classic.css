@@ -5,7 +5,7 @@ body#tinymce.wp-editor.content {font-family: -apple-system,BlinkMacSystemFont,"H
 @supports ( font-variation-settings: normal ) {body#tinymce.wp-editor.content {font-family: "Inter var",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}}
 body#tinymce.wp-editor.content {background: #f5efe0;color: #000;font-size: 21px;letter-spacing: -.015em;margin: 0 auto;max-width: calc(100% - 40px);width: 580px;}
 body#tinymce.wp-editor.content * {box-sizing: border-box;-webkit-font-smoothing: antialiased;}
-body#tinymce.wp-editor.content p, body#tinymce.wp-editor.content ol, body#tinymce.wp-editor.content ul, body#tinymce.wp-editor.content dl, body#tinymce.wp-editor.content dt {font-family: NonBreakingSpaceOverride,"Hoefler Text",Garamond,"Times New Roman",serif;letter-spacing: normal;}
+body#tinymce.wp-editor.content p, body#tinymce.wp-editor.content ol, body#tinymce.wp-editor.content ul, body#tinymce.wp-editor.content dl, body#tinymce.wp-editor.content dt {font-family: NonBreakingSpaceOverride,"Hoefler Text","Noto Serif",Garamond,"Times New Roman",serif;letter-spacing: normal;}
 body#tinymce.wp-editor.content p, body#tinymce.wp-editor.content ul, body#tinymce.wp-editor.content ol, body#tinymce.wp-editor.content blockquote {line-height: 1.5;margin-bottom: 1.5em;}
 body#tinymce.wp-editor.content code, body#tinymce.wp-editor.content kbd, body#tinymce.wp-editor.content samp {background: rgba(0,0,0,.075);}
 body#tinymce.wp-editor.content code, body#tinymce.wp-editor.content kbd, body#tinymce.wp-editor.content pre, body#tinymce.wp-editor.content samp {font-family: monospace;color: inherit;font-size: 15px;}
