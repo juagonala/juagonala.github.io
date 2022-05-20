@@ -89,6 +89,7 @@ input, textarea, button, .button, .faux-button, .wp-block-button__link, .wp-bloc
 input, textarea {border-color: #dcd7ca;color: #000;}
 code, input[type="url"], input[type="email"], input[type="tel"] {direction: ltr;}
 input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"], textarea {-webkit-appearance: none;-moz-appearance: none;background: #fff;border-radius: 0;border-style: solid;border-width: .1rem;box-shadow: none;display: block;font-size: 1.6rem;letter-spacing: -.015em;margin: 0;max-width: 100%;padding: 1.5rem 1.8rem;width: 100%;}
+input[type="number"] {padding-left: .5rem;}
 select {font-size: 1em;}
 textarea {height: 12rem;line-height: 1.5;width: 100%;}
 input::-webkit-input-placeholder {line-height: normal;}
@@ -516,7 +517,7 @@ figure.wp-block-table.is-style-stripes {border-bottom: none;}
 .entry-content ul ul, .entry-content ol ol, .entry-content ul ol, .entry-content ol ul {margin-bottom: 1rem;}
 .entry-content hr {margin: 4rem auto;}
 .post-inner .entry-content > .wp-block-cover.alignwide:first-child, .post-inner .entry-content > .wp-block-cover.alignfull:first-child {margin-top: 0;}
-.entry-content {font-family: NonBreakingSpaceOverride,"Hoefler Text",Garamond,"Times New Roman",serif;letter-spacing: normal;}
+.entry-content {font-family: NonBreakingSpaceOverride,"Hoefler Text","Noto Serif",Garamond,"Times New Roman",serif;letter-spacing: normal;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content cite, .entry-content figcaption, .entry-content table, .entry-content address, .entry-content .wp-caption-text, .entry-content .wp-block-file {font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}
 @supports ( font-variation-settings: normal ) {.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content cite, .entry-content figcaption, .entry-content table, .entry-content address, .entry-content .wp-caption-text, .entry-content .wp-block-file {font-family: "Inter var",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}}
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {max-width: 58rem;width: calc(100% - 4rem);}
@@ -610,7 +611,7 @@ div.comment:first-of-type {margin-top: 3.5rem;padding-top: 0;}
 .widget table caption {background-color: #dedfdf;}
 .widget .post-date, .widget .rss-date {color: #6d6d6d;display: block;font-size: .85em;font-weight: 500;margin-top: .2rem;}
 .widget select {max-width: 100%;}
-.widget_text p, .widget_text ol, .widget_text ul, .widget_text dl, .widget_text dt, .widget-content .rssSummary {font-family: NonBreakingSpaceOverride,"Hoefler Text",Garamond,"Times New Roman",serif;letter-spacing: normal;}
+.widget_text p, .widget_text ol, .widget_text ul, .widget_text dl, .widget_text dt, .widget-content .rssSummary {font-family: NonBreakingSpaceOverride,"Hoefler Text","Noto Serif",Garamond,"Times New Roman",serif;letter-spacing: normal;}
 .widget-content cite, .widget-content figcaption, .widget-content .wp-caption-text {font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}
 @supports ( font-variation-settings: normal ) {.widget-content cite, .widget-content figcaption, .widget-content .wp-caption-text {font-family: "Inter var",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}}
 .widget_archive ul, .widget_categories ul, .widget_pages ul, .widget_meta ul, .widget_nav_menu ul, .widget_recent_comments ul, .widget_recent_entries ul, .widget_rss ul {list-style: none;margin: 0;}
