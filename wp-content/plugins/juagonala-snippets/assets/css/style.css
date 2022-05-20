@@ -1,0 +1,26 @@
+.introduction-inner {max-width: 50rem;margin: 1rem auto;padding: 0 2rem;font-size: 110%;text-align: center;}
+.post-author.meta-wrapper, .author-bio .author-link, .powered-by-wordpress {display: none;}
+ul.footer-social {justify-content: center;}
+ul.footer-social li {margin-left: .9rem;}
+.footer-social a {width: 4.4rem;height: 4.4rem;}
+code {padding: .2rem;}
+.syntaxhighlighter {border-radius: 3px;padding: 1.2rem;}
+.syntaxhighlighter .line {font-size: 14px !important;line-height: 1.2 !important;}
+.syntaxhighlighter.line-break .line {white-space: initial !important;}
+.syntaxhighlighter table tbody td.gutter .line {padding-left: 0 !important;}
+.syntaxhighlighter table .gutter + .code .line {padding: 0 .5em !important;}
+@media (min-width: 700px) {.introduction-inner {padding: 0;font-size: 120%;}
+	h1, .heading-size-1, h2.entry-title {font-size: 6rem;}
+	h2, .heading-size-2 {font-size: 4rem;}
+	h3, .heading-size-3 {font-size: 3.4rem;}
+	.syntaxhighlighter .line {font-size: 16px !important;}}
+@media (min-width: 1220px) {h1, .heading-size-1 {font-size: 6rem;}}
+@media (prefers-color-scheme: dark) {:root {--main-bg-color: #22272e;--main-color: #e3edf3;--accent-color: #539bf5;}
+	body, body.custom-background, #site-header, #site-footer, .singular .entry-header, .entry-content, .footer-nav-widgets-wrapper {background-color: var(--main-bg-color) !important;color: var(--main-color);}
+	.entry-title a {color: var(--main-color);}
+	.menu-modal-inner {background: var(--main-bg-color);}
+	.header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle, .faux-button, .social-icons a {color: var(--main-color);}
+	.color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a {color: var(--accent-color);}
+	body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {color: var(--accent-color);}
+	cite, .site-description, .post-meta, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a, .to-the-top, hr.styled-separator, body:not(.overlay-header) .toggle-inner .toggle-text {color: #e0e0e0;}
+	code {background-color: #666;}}
