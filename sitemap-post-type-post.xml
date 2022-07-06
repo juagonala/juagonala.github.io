@@ -2,6 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="https://juagonala.com/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
+		<loc>https://juagonala.com/the-importance-of-giving-support/</loc>
+		<lastmod>2022-07-06T16:01:06+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://juagonala.com/what-a-developer-does/</loc>
 		<lastmod>2022-03-12T13:57:22+00:00</lastmod>
 	</url>
@@ -22,31 +26,24 @@
 		<lastmod>2021-01-13T09:09:29+00:00</lastmod>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/05/phpstorm-code-style.png</image:loc>
-			<image:title><![CDATA[phpstorm-code-style]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-php-quality-tools.png</image:loc>
-			<image:title><![CDATA[phpstorm-php-quality-tools]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-phpcodesniffer-local-setup.png</image:loc>
-			<image:title><![CDATA[phpstorm-phpcodesniffer-local-setup]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-inspections-settings.png</image:loc>
-			<image:title><![CDATA[phpstorm-inspections-settings]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-coding-standard-rulesets.png</image:loc>
-			<image:title><![CDATA[phpstorm-coding-standard-rulesets]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-custom-coding-standard.png</image:loc>
-			<image:title><![CDATA[phpstorm-custom-coding-standard]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/07/phpstorm-coding-standard-errors.png</image:loc>
-			<image:title><![CDATA[phpstorm-coding-standard-errors]]></image:title>
 		</image:image>
 	</url>
 	<url>
