@@ -41,6 +41,9 @@
 		<loc>https://juagonala.com/tag/phpstorm/</loc>
 	</url>
 	<url>
+		<loc>https://juagonala.com/tag/phpunit/</loc>
+	</url>
+	<url>
 		<loc>https://juagonala.com/tag/product-building/</loc>
 	</url>
 	<url>
@@ -54,6 +57,12 @@
 	</url>
 	<url>
 		<loc>https://juagonala.com/tag/support/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/testing/</loc>
+	</url>
+	<url>
+		<loc>https://juagonala.com/tag/unit-tests/</loc>
 	</url>
 	<url>
 		<loc>https://juagonala.com/tag/wc-data/</loc>
