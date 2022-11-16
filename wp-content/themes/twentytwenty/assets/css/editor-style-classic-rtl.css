@@ -24,12 +24,12 @@ body#tinymce.wp-editor.content dd + dt {margin-top: 1.5rem;}
 body#tinymce.wp-editor.content figcaption, body#tinymce.wp-editor.content .wp-caption-text, body#tinymce.wp-editor.content .wp-caption-dd, body#tinymce.wp-editor.content cite, body#tinymce.wp-editor.content table {font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;line-height: 1;}
 @supports ( font-variation-settings: normal ) {body#tinymce.wp-editor.content figcaption, body#tinymce.wp-editor.content .wp-caption-text, body#tinymce.wp-editor.content .wp-caption-dd, body#tinymce.wp-editor.content cite, body#tinymce.wp-editor.content table {font-family: "Inter var",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif;}}
 body#tinymce.wp-editor.content h1, body#tinymce.wp-editor.content h2, body#tinymce.wp-editor.content h3, body#tinymce.wp-editor.content h4, body#tinymce.wp-editor.content h5, body#tinymce.wp-editor.content h6 {font-feature-settings: "lnum";font-variant-numeric: lining-nums;font-weight: 700;letter-spacing: -.0415625em;line-height: 1.25;margin: 40px 0 25px;}
-body#tinymce.wp-editor.content h1 {font-size: 84px;font-weight: 800;line-height: 1.138888889;}
-body#tinymce.wp-editor.content h2 {font-size: 48px;}
-body#tinymce.wp-editor.content h3 {font-size: 40px;}
-body#tinymce.wp-editor.content h4 {font-size: 32px;}
-body#tinymce.wp-editor.content h5 {font-size: 24px;}
-body#tinymce.wp-editor.content h6 {font-size: 18px;letter-spacing: .03125em;text-transform: uppercase;}
+body#tinymce.wp-editor.content h1, body#tinymce.wp-editor.content .heading-size-1 {font-size: 84px;font-weight: 800;line-height: 1.138888889;}
+body#tinymce.wp-editor.content h2, body#tinymce.wp-editor.content .heading-size-2 {font-size: 48px;}
+body#tinymce.wp-editor.content h3, body#tinymce.wp-editor.content .heading-size-3 {font-size: 40px;}
+body#tinymce.wp-editor.content h4, body#tinymce.wp-editor.content .heading-size-4 {font-size: 32px;}
+body#tinymce.wp-editor.content h5, body#tinymce.wp-editor.content .heading-size-5 {font-size: 24px;}
+body#tinymce.wp-editor.content h6, body#tinymce.wp-editor.content .heading-size-6 {font-size: 18px;letter-spacing: .03125em;text-transform: uppercase;}
 body#tinymce.wp-editor.content blockquote {border: none;border-right: 2px solid #cd2653;margin: 0 0 1.6em 0;padding: .25em 1em .25em 0;}
 body#tinymce.wp-editor.content blockquote p {font-style: normal;font-weight: 400;margin: 0;}
 body#tinymce.wp-editor.content cite {color: #6d6d6d;font-size: 16px;font-weight: 500;font-style: normal;}
