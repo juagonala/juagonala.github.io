@@ -100,6 +100,7 @@ hr.wp-block-separator.is-style-dots::before {font-size: 32px;font-weight: 700;le
 .editor-styles-wrapper .wp-block-quote.has-text-align-right, .editor-styles-wrapper .wp-block-quote[style*="text-align:right"], .editor-styles-wrapper .wp-block-quote[style*="text-align: right"] {border-width: 0 2px 0 0;padding: 5px 20px 5px 0;}
 .editor-styles-wrapper cite, .editor-styles-wrapper .wp-block-quote__citation, .editor-styles-wrapper .wp-block-quote cite, .editor-styles-wrapper .wp-block-quote footer {color: #6d6d6d;font-size: 14px;font-weight: 600;line-height: 1.25;}
 .editor-styles-wrapper .wp-block-quote cite {font-style: normal;}
+.editor-styles-wrapper .wp-block-quote.has-text-color cite, .editor-styles-wrapper .wp-block-quote.has-background cite, .editor-styles-wrapper .has-background .wp-block-quote cite {color: inherit;}
 .editor-styles-wrapper .wp-block-quote p {color: inherit;font-weight: 400;margin: 0 0 20px 0;}
 .editor-styles-wrapper .wp-block-quote.is-style-large {border: none;padding: 0;}
 .editor-styles-wrapper .wp-block-quote.is-style-large p {font-family: inherit;font-size: 24px;font-style: normal;font-weight: 700;letter-spacing: -.035714286em;line-height: 1.285714286;}
@@ -129,6 +130,7 @@ hr.wp-block-separator.is-style-dots::before {font-size: 32px;font-weight: 700;le
 .editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="right"] .is-style-solid-color::before {right: 20px;transform: translateY(-50%);}
 .editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="left"] .is-style-solid-color::before {left: 20px;transform: translateY(-50%);}
 .editor-styles-wrapper .wp-block-pullquote__citation, .editor-styles-wrapper .wp-block-pullquote cite, .editor-styles-wrapper .wp-block-pullquote footer {color: #6d6d6d;font-size: 16px;font-weight: 500;margin-top: 12px;text-transform: none;}
+.editor-styles-wrapper .wp-block-pullquote.has-text-color cite, .editor-styles-wrapper .wp-block-pullquote.has-background cite, .editor-styles-wrapper .has-background .wp-block-pullquote cite {color: inherit;}
 .editor-styles-wrapper .wp-block-pullquote.is-style-solid-color {padding: 30px 20px;position: relative;}
 .editor-styles-wrapper .wp-block-pullquote.is-style-solid-color::before {position: absolute;top: 0;left: 50%;transform: translateY(-50%) translateX(-50%);}
 .editor-styles-wrapper .wp-block-pullquote.is-style-solid-color blockquote {max-width: 100%;text-align: center;}
