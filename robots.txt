@@ -1,4 +1,9 @@
 
+User-agent: *
+Disallow: /?s=
+Disallow: /page/*/?s=
+Disallow: /search/
+
 Sitemap: https://juagonala.com/sitemap.xml
 User-agent: *
 Disallow: /wp-admin/
