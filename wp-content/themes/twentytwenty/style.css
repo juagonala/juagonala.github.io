@@ -487,6 +487,7 @@ hr.wp-block-separator {margin: 3rem 0;}
 .wp-block-separator.is-style-dots::before {background: none;color: inherit;font-size: 3.2rem;font-weight: 700;height: auto;letter-spacing: 1em;padding-left: 1em;position: static;transform: none;width: auto;}
 .wp-block-separator.is-style-dots::after {content: none;}
 .wp-block-search .wp-block-search__input {width: auto;}
+.wp-block-table table:where(:not(.has-text-color)) * {border-color: inherit;}
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {background: #dcd7ca;}
 figure.wp-block-table.is-style-stripes {border-bottom: none;}
 .wp-block-table.is-style-stripes table {border-collapse: inherit;}
@@ -670,13 +671,13 @@ ul.footer-social li {margin: .5rem 0 0 .5rem;}
 #site-footer .section-inner {align-items: baseline;display: flex;justify-content: space-between;}
 #site-footer a {text-decoration: none;}
 #site-footer a:focus, #site-footer a:hover {text-decoration: underline;}
-.footer-copyright a, .privacy-policy a, .powered-by-wordpress a {color: inherit;}
-.privacy-policy, .powered-by-wordpress, .to-the-top {color: #6d6d6d;}
+.footer-copyright a, .footer-credits .privacy-policy a, .powered-by-wordpress a {color: inherit;}
+.footer-credits .privacy-policy, .powered-by-wordpress, .to-the-top {color: #6d6d6d;}
 a.to-the-top {margin-left: 2.4rem;white-space: nowrap;}
 a.to-the-top > * {pointer-events: none;}
 .footer-copyright {font-weight: 600;margin: 0;}
 .powered-by-wordpress {display: none;margin: 0 0 0 2.4rem;}
-.privacy-policy {margin: 1.2rem 0 0;}
+.footer-credits .privacy-policy {margin: 1.2rem 0 0;}
 .to-the-top-long {display: none;}
 @media ( max-width: 479px ) {.wp-block-pullquote.alignleft, .wp-block-pullquote.alignright {float: none;}
 	ul, ol {margin: 0 0 3rem 2rem;}
@@ -861,7 +862,7 @@ a.to-the-top > * {pointer-events: none;}
 	#site-footer {font-size: 1.8rem;padding: 4.3rem 0;}
 	.footer-credits {display: flex;flex-wrap: wrap;}
 	.footer-copyright {font-weight: 700;}
-	.privacy-policy {margin: 0 0 0 2.4rem;}
+	.footer-credits .privacy-policy {margin: 0 0 0 2.4rem;}
 	.to-the-top-long {display: inline;}
 	.to-the-top-short {display: none;}}
 @media (min-width: 782px) {.wp-block-column {margin-bottom: 0;}
