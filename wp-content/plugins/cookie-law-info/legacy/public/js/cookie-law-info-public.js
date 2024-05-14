@@ -1,5 +1,5 @@
 CLI_ACCEPT_COOKIE_NAME = (typeof CLI_ACCEPT_COOKIE_NAME !== 'undefined' ? CLI_ACCEPT_COOKIE_NAME : 'viewed_cookie_policy');
-CLI_PREFERNCE_COOKIE = (typeof CLI_PREFERNCE_COOKIE !== 'undefined' ? CLI_PREFERNCE_COOKIE : 'CookieLawInfoConsent');
+CLI_PREFERENCE_COOKIE = (typeof CLI_PREFERENCE_COOKIE !== 'undefined' ? CLI_PREFERENCE_COOKIE : 'CookieLawInfoConsent');
 CLI_ACCEPT_COOKIE_EXPIRE = (typeof CLI_ACCEPT_COOKIE_EXPIRE !== 'undefined' ? CLI_ACCEPT_COOKIE_EXPIRE : 365);
 CLI_COOKIEBAR_AS_POPUP = (typeof CLI_COOKIEBAR_AS_POPUP !== 'undefined' ? CLI_COOKIEBAR_AS_POPUP : false);
 var CLI_Cookie = {
@@ -861,7 +861,7 @@ var CLI =
 		}
 	},
 	generateConsent: function () {
-		var preferenceCookie = CLI_Cookie.read(CLI_PREFERNCE_COOKIE);
+		var preferenceCookie = CLI_Cookie.read(CLI_PREFERENCE_COOKIE);
 		cliConsent = {};
 		if (preferenceCookie !== null) {
 			cliConsent = window.atob(preferenceCookie);
@@ -884,7 +884,7 @@ var CLI =
 		);
 		cliConsent = JSON.stringify(cliConsent);
 		cliConsent = window.btoa(cliConsent);
-		CLI_Cookie.set(CLI_PREFERNCE_COOKIE, cliConsent, CLI_ACCEPT_COOKIE_EXPIRE);
+		CLI_Cookie.set(CLI_PREFERENCE_COOKIE, cliConsent, CLI_ACCEPT_COOKIE_EXPIRE);
 	},
 	addStyleAttribute: function () {
 		var bar = this.bar_elm;
@@ -1144,7 +1144,7 @@ var cliBlocker =
 	},
 	ccpaOptedOut: function () {
 		var ccpaOptedOut = false;
-		var preferenceCookie = CLI_Cookie.read(CLI_PREFERNCE_COOKIE);
+		var preferenceCookie = CLI_Cookie.read(CLI_PREFERENCE_COOKIE);
 		if (preferenceCookie !== null) {
 			cliConsent = window.atob(preferenceCookie);
 			cliConsent = JSON.parse(cliConsent);
