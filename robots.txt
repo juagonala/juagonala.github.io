@@ -1,10 +1,8 @@
-
 User-agent: *
+Disallow: /wp-admin/
 Disallow: /?s=
 Disallow: /page/*/?s=
 Disallow: /search/
+Allow: /wp-admin/admin-ajax.php
 
 Sitemap: https://juagonala.com/sitemap.xml
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
