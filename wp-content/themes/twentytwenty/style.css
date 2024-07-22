@@ -68,6 +68,7 @@ code, kbd, pre, samp {font-family: monospace;font-size: .9em;padding: .4rem .6re
 code, kbd, samp {background: rgba(0,0,0,.075);border-radius: .2rem;}
 pre {border: .1rem solid #dcd7ca;line-height: 1.5;margin: 4rem 0;overflow: auto;padding: 3rem 2rem;text-align: left;}
 pre code {background: transparent;padding: 0;}
+.entry-content > code {display: block;}
 figure {display: block;margin: 0;}
 iframe {display: block;max-width: 100%;}
 video {display: block;}
@@ -433,6 +434,7 @@ ol.wp-block-latest-comments {margin-left: auto;margin-right: auto;}
 .is-style-outline .wp-block-button__link:not(.has-text-color) {color: inherit;}
 .is-style-outline .wp-block-button__link {border: 2px solid;padding: calc(1.1em - .2rem) calc(1.44em - .2rem);}
 .wp-block-buttons[style*="text-transform"] .wp-block-button__link, .wp-block-button[style*="text-transform"] .wp-block-button__link {text-transform: inherit;}
+.wp-block-buttons[style*="letter-spacing"] .wp-block-button__link, .wp-block-button[style*="letter-spacing"] .wp-block-button__link {letter-spacing: inherit;}
 .wp-block-columns.alignfull, .alignfull:not(.has-background) .wp-block-columns {padding-left: 2rem;padding-right: 2rem;}
 .wp-block-column {margin-bottom: 3.2rem;}
 .wp-block-column > *:first-child {margin-top: 0;}
