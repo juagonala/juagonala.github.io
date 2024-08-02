@@ -382,8 +382,7 @@ ol, ul {box-sizing: border-box;}
 .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {color: inherit;}
 .wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content, .wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:active, .wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:focus {text-decoration: underline;}
 .wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content, .wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content:active, .wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content:focus {text-decoration: line-through;}
-.wp-block-navigation:where(:not([class*=has-text-decoration])) a {text-decoration: none;}
-.wp-block-navigation:where(:not([class*=has-text-decoration])) a:active, .wp-block-navigation:where(:not([class*=has-text-decoration])) a:focus {text-decoration: none;}
+.wp-block-navigation :where(a), .wp-block-navigation :where(a:active), .wp-block-navigation :where(a:focus) {text-decoration: none;}
 .wp-block-navigation .wp-block-navigation__submenu-icon {align-self: center;background-color: inherit;border: none;color: currentColor;display: inline-block;font-size: inherit;height: .6em;line-height: 0;margin-left: .25em;padding: 0;width: .6em;}
 .wp-block-navigation .wp-block-navigation__submenu-icon svg {display: inline-block;stroke: currentColor;height: inherit;margin-top: .075em;width: inherit;}
 .wp-block-navigation.is-vertical {--navigation-layout-direction: column;--navigation-layout-justify: initial;--navigation-layout-align: flex-start;}
