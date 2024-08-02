@@ -11,69 +11,11 @@
 		<title>About – Juan José González</title>
 <meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-<script id="google_gtagjs-js-consent-mode">
+<script id="google_gtagjs-js-consent-mode-data-layer">
 window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
-gtag('consent', 'default', {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500});
+gtag('consent', 'default', {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK","CH"],"wait_for_update":500});
 window._googlesitekitConsentCategoryMap = {"statistics":["analytics_storage"],"marketing":["ad_storage","ad_user_data","ad_personalization"],"functional":["functionality_storage","security_storage"],"preferences":["personalization_storage"]};
-( function () {
-	document.addEventListener(
-		'wp_listen_for_consent_change',
-		function ( event ) {
-			if ( event.detail ) {
-				var consentParameters = {};
-				var hasConsentParameters = false;
-				for ( var category in event.detail ) {
-					if ( window._googlesitekitConsentCategoryMap[ category ] ) {
-						var status = event.detail[ category ];
-						var mappedStatus =
-							status === 'allow' ? 'granted' : 'denied';
-						var parameters =
-							window._googlesitekitConsentCategoryMap[ category ];
-						for ( var i = 0; i < parameters.length; i++ ) {
-							consentParameters[ parameters[ i ] ] = mappedStatus;
-						}
-						hasConsentParameters = !! parameters.length;
-					}
-				}
-				if ( hasConsentParameters ) {
-					gtag( 'consent', 'update', consentParameters );
-				}
-			}
-		}
-	);
-
-	function updateGrantedConsent() {
-		if ( ! ( window.wp_consent_type || window.wp_fallback_consent_type ) ) {
-			return;
-		}
-		var consentParameters = {};
-		var hasConsentParameters = false;
-		for ( var category in window._googlesitekitConsentCategoryMap ) {
-			if ( window.wp_has_consent && window.wp_has_consent( category ) ) {
-				var parameters =
-					window._googlesitekitConsentCategoryMap[ category ];
-				for ( var i = 0; i < parameters.length; i++ ) {
-					consentParameters[ parameters[ i ] ] = 'granted';
-				}
-				hasConsentParameters =
-					hasConsentParameters || !! parameters.length;
-			}
-		}
-		if ( hasConsentParameters ) {
-			gtag( 'consent', 'update', consentParameters );
-		}
-	}
-	document.addEventListener(
-		'wp_consent_type_defined',
-		updateGrantedConsent
-	);
-	document.addEventListener( 'DOMContentLoaded', function () {
-		if ( ! window.waitfor_consent_hook ) {
-			updateGrantedConsent();
-		}
-	} );
-} )();
-</script>
+window._googlesitekitConsents = {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK","CH"],"wait_for_update":500}</script>
 
 			<link rel="dns-prefetch" href="//www.googletagmanager.com">
 
@@ -107,11 +49,11 @@ var log_object = {"ajax_url":"https:\/\/juagonala.com\/wp-admin\/admin-ajax.php"
 <script src="https://juagonala.com/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js" id="cookie-law-info-js"></script>
 <script src="https://juagonala.com/wp-content/themes/twentytwenty/assets/js/index.js" id="twentytwenty-js-js" defer data-wp-strategy="defer"></script>
 
-<meta name="generator" content="WordPress 6.6">
+<meta name="generator" content="WordPress 6.6.1">
 
 
 
-<meta name="generator" content="Site Kit by Google 1.131.0">	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+<meta name="generator" content="Site Kit by Google 1.132.0">	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
 	
 <meta name="description" content="Hi, I'm Juan José González, a WordPress and WooCommerce developer with more than ten years of experience. I live in Madrid, Spain, the city I moved to after fin">
 <meta property="og:title" content="About – Juan José González">
@@ -563,6 +505,7 @@ body.custom-background { background-color: #fcfcfc; }
         }
     ]
 }</script><link rel="stylesheet" id="cookie-law-info-table-css" href="https://juagonala.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css" media="all">
+<script src="https://juagonala.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-3d6495dceaebc28bcca3.js" id="googlesitekit-consent-mode-js"></script>
 <script id="wp-consent-api-js-extra">
 var consent_api = {"consent_type":"","waitfor_consent_hook":"","cookie_expiration":"30","cookie_prefix":"wp_consent"};
 </script>
