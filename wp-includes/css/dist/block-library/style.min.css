@@ -507,7 +507,7 @@ p.has-text-align-left[style*="writing-mode:vertical-lr"], p.has-text-align-right
 .wp-block-post-excerpt__more-link {display: inline-block;}
 .wp-block-post-featured-image {margin-left: 0;margin-right: 0;}
 .wp-block-post-featured-image a {display: block;height: 100%;}
-.wp-block-post-featured-image img {box-sizing: border-box;height: auto;max-width: 100%;vertical-align: bottom;width: 100%;}
+.wp-block-post-featured-image :where(img) {box-sizing: border-box;height: auto;max-width: 100%;vertical-align: bottom;width: 100%;}
 .wp-block-post-featured-image.alignfull img, .wp-block-post-featured-image.alignwide img {width: 100%;}
 .wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim {background-color: #000;inset: 0;position: absolute;}
 .wp-block-post-featured-image {position: relative;}
