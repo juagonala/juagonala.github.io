@@ -3,31 +3,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
 		<loc>https://juagonala.com/unit-testing-a-wordpress-plugin/</loc>
-		<lastmod>2022-12-20T12:54:06+00:00</lastmod>
+		<lastmod>2022-12-20T13:54:06+01:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/the-importance-of-giving-support/</loc>
-		<lastmod>2022-07-07T08:00:24+00:00</lastmod>
+		<lastmod>2022-07-07T10:00:24+02:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/what-a-developer-does/</loc>
-		<lastmod>2022-03-12T13:57:22+00:00</lastmod>
+		<lastmod>2022-03-12T14:57:22+01:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/how-woocommerce-handles-object-data/</loc>
-		<lastmod>2021-09-24T21:00:29+00:00</lastmod>
+		<lastmod>2021-09-24T23:00:29+02:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/stop-using-arrays-for-everything/</loc>
-		<lastmod>2021-04-29T17:01:02+00:00</lastmod>
+		<lastmod>2021-04-29T19:01:02+02:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/how-to-deprecate-code-in-wordpress/</loc>
-		<lastmod>2021-03-09T12:42:12+00:00</lastmod>
+		<lastmod>2021-03-09T13:42:12+01:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/how-to-enable-php_codesniffer-in-phpstorm/</loc>
-		<lastmod>2021-01-13T09:09:29+00:00</lastmod>
+		<lastmod>2021-01-13T10:09:29+01:00</lastmod>
 		<image:image>
 			<image:loc>https://juagonala.com/wp-content/uploads/2020/05/phpstorm-code-style.png</image:loc>
 		</image:image>
@@ -52,10 +52,10 @@
 	</url>
 	<url>
 		<loc>https://juagonala.com/coding-standards-with-php_codesniffer/</loc>
-		<lastmod>2021-08-03T15:27:59+00:00</lastmod>
+		<lastmod>2021-08-03T17:27:59+02:00</lastmod>
 	</url>
 	<url>
 		<loc>https://juagonala.com/initial-commit/</loc>
-		<lastmod>2020-11-10T16:48:29+00:00</lastmod>
+		<lastmod>2020-11-10T17:48:29+01:00</lastmod>
 	</url>
 </urlset>
